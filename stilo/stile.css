@@ -81,7 +81,8 @@ body{
 .cell{
     margin-top: 50px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;/* permite que as celulas quebrem para a proxima linha */
+    justify-content: space-around; /* centraliza as celulas horizontalmente*/
 
 }
 
@@ -90,7 +91,15 @@ body{
     margin: 20px;
     text-align: center;
     padding: 40px;
+    box-sizing: border-box; /*Mantem a largura dentro do espaco da celula */
 
+}
+
+/* Adicione regras de media query para ajustar o layout em diferentes tamanhos de tela */
+@media(min-width: 768px){
+  .cell{
+    justify-content: space-around;/* espacamento entre as celulas em telas maiores */
+  }
 }
 
 .info{
