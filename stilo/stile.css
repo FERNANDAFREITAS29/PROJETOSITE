@@ -95,8 +95,20 @@ body{
 
 .info{
 
+    color: beige;
+    font-size: 20px;
+    background-color: aqua;
+    text-align: center;
+    flex-direction: columm;
+    padding: 50px;
     background-image: url(/img/phone.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.rodape{
+    background-color: aqua;
+    padding: 60px;
+    margin-top: 20px;
 }
