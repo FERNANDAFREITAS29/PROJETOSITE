@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: rgb(219, 219, 223);
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+    background-color: gainsboro;
+}
+
+.container a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.container a:hover{
+    cursor: pointer;
+    color: yellowgreen;
+    transition: 1s;
+
+}
+
+.menu{
+    margin: 10px;
+}
+
+.menu a{
+    padding: 50px;
+    margin-left: 10px;
+}
+
+.meio{
+    background-color: yellow;
+    padding: 200px;
+    background-image: url(/img/celular.jfif);
+}
